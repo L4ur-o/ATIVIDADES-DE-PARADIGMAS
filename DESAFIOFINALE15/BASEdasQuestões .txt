@@ -1,0 +1,34 @@
+1 - Crie uma classe Carro com atributos como marca, modelo, e
+ano. Instancie três objetos dessa classe e exiba os detalhes de cada um.
+
+2 - Adicione um método acelerar e frear à classe Carro que altere um atributo velocidade. Crie um método para exibir a velocidade atual.
+
+6 - Implemente uma classe Motor e associe-a a uma classe Carro. A classe Carro deve ter um objeto do tipo Motor como um de seus atributos.
+===->===->===-> ===->===->===-> ===->===->===-> ===->===->===-> ===->===->===->
+
+3 - Implemente uma classe ContaBancaria com atributos saldo, titular e métodos depositar e sacar. Use encapsulamento para proteger o atributo saldo.
+
+4 - Crie uma classe base Animal com métodos como som. Derive classes como Cachorro e Gato que implementam o método som de maneiras diferentes.
+
+5 - Utilize polimorfismo para criar uma função que receba uma lista de objetos Animal e chame o método som de cada um, demonstrando comportamento diferente para cada subclasse.
+
+
+
+7 - Crie uma classe Escola e uma classe Professor. A associação deve permitir que uma escola tenha vários professores, e um professor possa lecionar em várias escolas.
+
+8 - Modele uma classe Empresa que agregue uma lista de objetos Empregado. Cada empregado deve ter atributos como nome, cargo, e salario.
+
+9 - Em Java e Golang, defina uma interface para imprimível que tenha um método imprimir. Implemente essa interface em classes como Relatório e Contrato. Em Python, use a abordagem de protocolo ou classes abstratas.
+
+10 - Implemente uma classe Calculadora com métodos somar que aceita diferentes números de parâmetros (dois ou três números). Em Golang, use funções com nomes diferentes para diferentes quantidades de parâmetros.
+
+11 - Crie uma classe abstrata Funcionario com um método abstrato calcularSalario. Derive classes como FuncionarioHorista e FuncionarioAssalariado que implementam calcularSalario de formas distintas.
+
+12 - Em Python, sobrecarregue o operador + para somar dois objetos Produto baseados no preço. Em Java e Golang, crie métodos que permitam essa funcionalidade.
+
+13 - Adicione um método estático à classe Matematica que calcula o fatorial de um número. Em Python, utilize @staticmethod, em Java static, e em Golang crie uma função regular na struct.
+
+14 - Implemente o padrão de projeto Singleton para garantir que apenas uma instância de uma classe Configuracao seja criada.
+
+15 - Crie uma classe de exceção personalizada SaldoInsuficienteException em Java e Python, ou error em Golang, que seja lançada quando houver uma tentativa de saque superior ao saldo disponível na classe
+ContaBancaria.
